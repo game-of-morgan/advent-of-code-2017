@@ -22,14 +22,12 @@ int main(int argc, const char * argv[]) {
         
         char* input = readSampleInput();
         char* character;
-        int sum = 0, previousDigit = -1, addedInitialCharacter = 0, firstDigit = *input - '0';
+        int sum = 0, previousDigit = -1, firstDigit = *input - '0';
         
         for (character = input; *character != '\0'; character++){
             int characterValue = *character - '0';
             if(characterValue == previousDigit){
                 sum += characterValue;
-            } else {
-                addedInitialCharacter = 0;
             }
             if(strlen(character) == 1 && characterValue == firstDigit){
                 sum += characterValue;
