@@ -6,3 +6,4 @@ https://gameofmorgan.blog/
 ### Completed List
 
 * Day 1
+* Day 2
