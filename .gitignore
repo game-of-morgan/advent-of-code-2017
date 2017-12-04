@@ -2,3 +2,12 @@
 /day-1/DerivedData/*
 /day-1/day-1.xcodeproj
 /day-1/day-1.xcodeproj/*
+day-2/.idea
+/day-2/project
+
+# Ignore everything
+day-2/*
+day-2/project
+
+# But not these files...
+!day-2/src
